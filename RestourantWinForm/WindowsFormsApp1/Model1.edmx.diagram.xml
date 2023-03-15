@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c5980b2ca8f4a15be7412d140f56563" Name="Diagram1">
+        <EntityTypeShape EntityType="RestaurantModel.Bolumler" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.CalisanDetay" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Calisanlar" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.EmanetEsyalar" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Masa" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Musteriler" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.OdemeYontemleri" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Restaurant" Width="1.5" PointX="0.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.RestaurantMenu" Width="1.5" PointX="3" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Rezervasyonlar" Width="1.5" PointX="7.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.SiparisKanallari" Width="1.5" PointX="3" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Siparisler" Width="1.5" PointX="5.25" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.SiparisUrunDetay" Width="1.5" PointX="7.5" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Tedarikciler" Width="1.5" PointX="5.25" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.TedarikEdilenMalzemeler" Width="1.5" PointX="3" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Urunler" Width="1.5" PointX="5.25" PointY="20.5" IsExpanded="true" />
+        <AssociationConnector Association="RestaurantModel.FK__Bolumler__Restau__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Masa__BolumID__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__CalisanDe__Calis__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Calisanla__Rapor__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Calisanla__Resta__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__EmanetEsy__Calis__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Siparisle__Sipar__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Rezervasy__MasaI__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Musterile__Resta__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Rezervasy__Muste__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Siparisle__Muste__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__OdemeYont__Resta__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Siparisle__Odeme__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Restauran__Resta__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__SiparisKa__Resta__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__TedarikEd__Resta__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Urunler__Restaur__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__Siparisle__Sipar__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__SiparisUr__Sipar__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK__SiparisUr__UrunI__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.TedarikciMalzemeDetay" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
